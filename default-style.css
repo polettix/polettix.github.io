@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Lekton-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lekton-Bold'), url('/fonts/Lekton-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url('/fonts/Inconsolata.ttf') format('truetype');
+}
+body {
+   margin: 0;
+   padding: 1em;
+   text-align: center;
+   background: black;
+   font-family: 'Inconsolata', 'Lekton-Bold', monospace;
+   font-size: 90%;
+}
+div#page {
+   background: white;
+   width: 490;
+   padding: 2em 1em;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 15px;
+   -moz-border-radius: 15px;
+}
+ul {
+   margin: 0;
+   padding: 0.7em;
+   list-style-type: none;
+}
+li {
+   margin: 0;
+   padding: 0 0.1em;
+   display: inline;
+}
+a, a:hover, a:visited {
+   text-decoration: none;
+   font-weight: bold;
+   color: white;
+   background: gray;
+   padding: 0.3em 0.3em 0.1em 0.3em;
+   border-radius: 3px;
+   -moz-border-radius: 3px;
+}
+a:hover {
+   color: red;
+   background: white;
+}
